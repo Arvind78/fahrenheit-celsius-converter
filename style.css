@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Kanit:wght@300&family=League+Gothic&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Anek Malayalam', sans-serif;
+}
+body{
+  background-image: url("pexels-ryutaro-tsukata-5745683.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  height: 100vh;
+
+
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#main{
+    height: 280px;
+    width: 450px;
+    background-color:#cecccb5c;
+    border-radius: 5px;
+  
+    border: 3px solid #3f2b20;
+}
+h1{
+    text-align:center;
+    border-radius: 2px;
+    color:white;
+    background-color:#023e7d;
+}
+input,#result{
+    margin-top: 23px;
+    width: 60%;
+    padding: 10px;
+    margin-left: 80px;
+}
+input:focus{
+     outline-color: orange;
+  
+}
+#f{
+    margin-left: 120px;
+}
+#c{
+    margin-left: 30px;
+    padding: 5px 15px;
+}
+button{
+    padding: 5px;
+
+}
+#result{
+    background-color: aliceblue;
+    border: 1px solid black ;
+    height: 40px;
+}
